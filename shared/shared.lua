@@ -8,7 +8,7 @@ local Shared <const> = {
 
     debug = false, -- activates debug messages on the server and client sides
     menuSystem = 'target', -- 'target' = boss menu has precise target | 'touch' = boss menu via a key (anywhere on the map)
-    keyOpenBossMenu = 'F7', -- Key to open the menu when the config 'menuSystem' is on 'touch'
+    keyOpenBossMenu = 'F7',
     resourceName = GetCurrentResourceName(),
     whiteningPercentage = 0.80, -- Percentage received from the initial price after laundering, 0.80 corresponds to 80%
     maxSalary = 5000,
@@ -24,9 +24,9 @@ local Shared <const> = {
     },
 
     society = {
-        {name = 'police', label = 'LSPD', coords = vec3(-22.450283050537, -1097.5412597656, 26.19454574585), bossName = 'boss', washMoney = true},
-        {name = 'cardealer', label = 'Concessionaire', coords = vec3(-23.630056381226, -1101.4237060547, 26.19454574585), bossName = 'boss', washMoney = true},
-        {name = 'ambulance', label = 'Ambulance', coords = vec3(-30.604228973389, -1100.12109375, 26.19454574585), bossName = 'boss', washMoney = true}
+        {name = 'police', label = 'LSPD', coords = vec3(-22.450283050537, -1097.5412597656, 26.19454574585), bossGrade = 4, washMoney = true},
+        {name = 'cardealer', label = 'Concessionaire', coords = vec3(-23.630056381226, -1101.4237060547, 26.19454574585), bossGrade = 4, washMoney = true},
+        {name = 'ambulance', label = 'Ambulance', coords = vec3(-30.604228973389, -1100.12109375, 26.19454574585), bossGrade = 3, washMoney = true}
 
     }
 

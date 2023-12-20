@@ -31,14 +31,9 @@ Citizen.CreateThread(function()
 
     if Shared.menuSystem ~= 'touch' then
 
-        while true do
-
             for i = 1, #Shared.society do
         
-                if ESX.PlayerData.job.grade_name == Shared.society[i].bossName and ESX.PlayerData.job.name == Shared.society[i].name then
-    
-
-                    local society_target = exports["ox_target"]:addBoxZone({
+                    exports.ox_target:addBoxZone({
                         coords = Shared.society[i].coords,
                         size = vec3(3, 3, 3),
                         rotation = 45,
@@ -48,30 +43,19 @@ Citizen.CreateThread(function()
                                 event = 'ato:societyboss:svopenBossMenu',
                                 icon = 'fa-solid fa-building', 
                                 label = locale("management") .. Shared.society[i].label,
-                                distance = 3
+                                distance = 3,
+                                groups = {[Shared.society[i].name] = Shared.society[i].bossGrade}
                             }
                         }
                     })
-
-                    Wait(5000)
-
-                    exports.ox_target:removeZone(society_target)
-
-                elseif ESX.PlayerData.job.grade_name ~= Shared.society[i].bossName then
-
-                    Wait(5000)
-
-                end
                 
             end
-
-        end
         
     elseif Shared.menuSystem == 'touch' then
 
         for i = 1, #Shared.society do
         
-            if ESX.PlayerData.job.grade_name == Shared.society[i].bossName and ESX.PlayerData.job.name == Shared.society[i].name then
+            if ESX.PlayerData.job.grade == Shared.society[i].bossGrade and ESX.PlayerData.job.name == Shared.society[i].name then
 
                 RegisterCommand("open_boss_menu", function()
 

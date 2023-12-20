@@ -1,0 +1,65 @@
+{
+
+    "dont_change_name": "Merci de ne pas renommer la ressource",
+    "rsrc_started": "Ressource chargé avec succès",
+
+    "title_boss_menu": "Menu Patron",
+    "your_society": "Votre entreprise: ",
+    "management": "Gestion ",
+
+    "recruit": "Recruter",
+    "desc_recruit": "(Joueur le plus proche)",
+    "no_one_nearby": "Aucune personne à proximiter",
+    "recruit_allow": "Etes vous sur de vouloir recruter cette personne ?",
+    "cancel_change": "Changement annulé",
+
+    "announce": "Annonce",
+    "announce_": "Faire une annonce",
+    "desc_announce": "Annonce patron",
+    "announce_type": "Type d'annonce",
+    "employee_ad": "Annonce employé",
+    "players_ad": "Annonce personnalisé",
+    "announce_title": "Titre",
+    "announce_desc": "Description",
+    "message_title": "Titre du message",
+    "message_desc": "Description du message",
+
+    "grade_options": "Gestion des grades",
+    "grade_options_desc": "Créer/Supprimer/Enlever des grades",
+    "salary": " (Salaire: ",
+    "rework_name": "Modifier le nom",
+    "rework_salary": "Modifier le salaire",
+    "actually_salary": "Salaire actuelle: ",
+    "actually_label": "Label actuelle: ",
+    "error_max_salary": "Le salaire que vous avez entrer est trop gros, maximum ",
+    "rework_disabled": "Modification interdite",
+    "rework_enabled": "Cliquer pour modifier",
+
+    "employee_options": "Gestion des employés",
+    "employee_options_desc": "Virer/retrogader/promouvoir un employé",
+    "rework_employee": "Cliquer gerer l'employé",
+    "dob": "Dâte de naissance",
+    "sex": "Sexe",
+    "height": "Taille",
+    "grade": "Grade",
+    "no_grade": "Il n'y a plus de grade après celui ci",
+
+    "money_options": "Gestion des fonds",
+    "money_options_desc": "Permet de retirer/deposer/blanchir de l'argent",
+    "society_not_enough_money": "La societé ne possède pas assez de fond",
+    "deposit_money": "Déposer de l'argent",
+    "deposit_money_desc": "Permet d'ajouter des fonds à votre societé",
+    "withtdraw_money": "Retirer de l'argent",
+    "withtdraw_money_desc": "Permet de retirer des fonds de votre societé",
+    "wash_money": "Blanchir de l'argent",
+    "desc_wash_money": "Transformer de l'argent sale en argent propre",
+    "not_enough_money": "Vous ne possèdez pas assez d'argent",
+
+    "rework": "Modifications",
+    "error": "Erreur",
+    "confirm": "Confirmer",
+    "not_confirmed": "Vous n'avez pas confirmé",
+    "ammount": "Montant",
+    "not_value": "Merci de bien vouloir rentré toutes les valeurs."
+
+}

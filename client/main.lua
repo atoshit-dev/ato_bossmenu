@@ -22,13 +22,6 @@ Citizen.CreateThread(function()
         print('[^3ato_bossmenu^7] [^2Success^7] ' .. locale('rsrc_started'))
     end
 
-    while PlayerPedId() == nil do
-        print(PlayerPedId())
-        Wait(100)
-    end
-
-    Wait(3000)
-
     if Shared.menuSystem ~= 'touch' then
 
             for i = 1, #Shared.society do

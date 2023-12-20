@@ -8,7 +8,7 @@ local Shared <const> = {
 
     debug = false, -- activates debug messages on the server and client sides
     menuSystem = 'target', -- 'target' = boss menu has precise target | 'touch' = boss menu via a key (anywhere on the map)
-    keyOpenBossMenu = 'F7',
+    keyOpenBossMenu = 'F7', -- Key to open the menu when the config 'menuSystem' is on 'touch'
     resourceName = GetCurrentResourceName(),
     whiteningPercentage = 0.80, -- Percentage received from the initial price after laundering, 0.80 corresponds to 80%
     maxSalary = 5000,
